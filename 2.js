@@ -14,10 +14,10 @@ const trapezeArea = () => {
                     console.log('----------------------------');
                     console.log(`Area do trapézio é de ${area}`);
                     resolve()
-                })
+                });
             });
         });
-    })
+    });
 };
 
 (async () => {
